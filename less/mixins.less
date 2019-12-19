@@ -1,0 +1,31 @@
+.testBorder {
+    border: 2px solid green;
+}
+
+.redRound(@border-radius: 50%) {
+    background: rgb(255, 0, 0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(40, 33, 33, 1) 100%);
+    width: 20%;
+    border-radius: @border-radius;
+    border: 1px solid gold;
+}
+
+.buttonSettings(@bgcolor: rgb(255, 0, 0) , @width: 100px, @font-color: gold) {
+    display: block;
+    background-color: @bgcolor;
+    margin: 0 2% 2%;
+    cursor: pointer;
+    width: @width;
+    height: 5%;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: @font-color;
+    transition: relative;
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(40, 33, 33, 1) 100%);
+}
+
+
+.center{
+    justify-content: center;
+    align-items: center;
+}

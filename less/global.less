@@ -1,0 +1,533 @@
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    body {
+        background-image: url(/img/Curtains.png);
+        background-size: 100%;
+        font-size: 1rem;
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        li,
+        nav a {
+            color: gold;
+
+
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 1%;
+            margin-left: 2%;
+            margin-right: 2%;
+            width: 75%;
+            padding-left: 5%;
+            text-decoration: none;
+            
+
+            .welcome{
+                .redRound(10%;);
+                width: 50%;
+                text-align: center;
+                padding-left: 5%;
+                padding-right: 5%;
+                margin-top: 30%;
+                margin-left: 3%;
+                font-size: 1rem;
+                
+                h1{
+                    font-family: 'permanent marker';
+                    letter-spacing: 3px;
+                }
+                a{
+                    text-decoration-color: Gold;
+                    font-family: 'permanent marker';
+                    letter-spacing: 3px;
+                    color: gold;
+                }
+                p{
+                    font-family: 'volkhov';
+                }
+                
+                h2{
+                    font-family: 'notable';
+                    letter-spacing: 1px;
+                }
+                
+            }
+            .navMeta{
+                margin-top: -46.7%;
+                    margin-left: -65%;
+            }
+            
+
+            .icon {
+                .redRound();
+                font-family: 'permanent marker';
+                text-align: center;
+
+                a {
+
+                    text-decoration: none;
+                }
+            }
+
+            nav {
+                width: 400%;
+                text-decoration: none;
+                height: 10%;
+                font-family: 'Satisfy';
+
+
+                a {
+                    .redRound();
+                    text-decoration: none;
+                    margin: 3%;
+                    padding: 2%;
+
+                }
+            }
+        }
+
+
+        .mid {
+            display: flex;
+            margin-top: 5%;
+            justify-content: space-around;
+
+            .celebrity {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Notable';
+                width: 25%;
+                margin-left: 18%;
+                text-align: center;
+                letter-spacing: 1px;
+
+                .star {
+                    width: 75%;
+                }
+
+                h2 {
+                    .redRound(10%);
+                    width: 100%;
+                }
+
+                p {
+                    .redRound(10%);
+                    width: 100%;
+                    font-size: .75rem;
+                }
+            }
+
+            .buttons {
+                margin-top: 20.5%;
+                margin-right: 10%;
+                margin-left: 10%;
+                padding-top: 1.2%;
+                .redRound(20%);
+                width: 20%;
+                text-align: center;
+                height: 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Notable';
+                font-size: .5rem;
+                letter-spacing: 2px;
+
+                .buttons:hover {
+                    cursor: pointer;
+                    -webkit-box-shadow: 0px 5px 40px -10px gold;
+                    -moz-box-shadow: 0px 5px 40px -10px gold;
+                    box-shadow: 5px 40px -10px gold;
+                    transition: all 0.4s ease 0s;
+
+                }
+
+                .Alive,
+                .Dead {
+                    .buttonSettings();
+                    font-family: 'permanent marker';
+                    letter-spacing: 3px;
+                }
+            }
+
+            .scoreBoard {
+                margin-right: 18%;
+                .redRound(10%);
+                height: 10%;
+                text-align: center;
+                font-family: 'Notable';
+            }
+        }
+    }
+
+    /////////////////////////////About///////////////////////////////
+    .creditsMeta {
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+
+        .credits {
+            h1 {
+                text-align: center;
+                font-family: 'Notable';
+                letter-spacing: 2rem;
+            }
+
+            .redRound(10%; );
+            display:flex;
+            .center();
+            flex-wrap: wrap;
+            flex-direction: row;
+
+
+            width: 66%;
+
+            .Cast {
+                h1 {
+                    text-align: center;
+                    letter-spacing: .5rem;
+                }
+                display:flex;
+                flex-wrap: wrap;
+                .center();
+                font-family: 'Notable';
+
+
+                .castMember {
+                    margin: .50%;
+                    font-size: .75rem;
+                    text-align: center;
+
+                    p {
+                        font-family: 'Volkhov', serif;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media @tablet {
+    html {
+        body {
+            font-size: 1rem;
+
+            .creditsMeta {
+                .credits {
+                    width: 100%;
+                }
+            }
+
+            
+
+            .header {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 1%;
+                margin-left: 2%;
+                margin-right: 2%;
+                width: 75%;
+                text-decoration: none;
+
+                .welcome{
+                    margin-left: 17%;
+                }
+
+                .navMeta{
+                    margin-top: -90.7%;
+                        margin-left: -35%;
+                }
+
+                .icon {
+                    .redRound();
+                    margin-top: 2%;
+                    margin-left: 5%;
+                    font-family: 'permanent marker';
+                    text-align: center;
+                    width: 20%;
+
+                    a {
+
+                        text-decoration: none;
+                    }
+                }
+
+                nav {
+                    width: 200%;
+                    text-decoration: none;
+                    height: 10%;
+                    font-family: 'Satisfy';
+
+
+                    a {
+                        .redRound();
+                        text-decoration: none;
+                        margin: 3%;
+                        padding: 2%;
+
+                    }
+                }
+            }
+
+            background-image: url(/img/tablet_curtains.png);
+            background-repeat: no-repeat;
+            background-size: fill;
+
+            .mid {
+                display: flex;
+                margin-top: 5%;
+                justify-content: space-around;
+
+                .celebrity {
+                    flex-direction: column;
+                    .center();
+                    font-family: 'Notable';
+                    width: 25%;
+                    margin-left: 18%;
+                    text-align: center;
+                    margin-top: 12%;
+
+                    .star {
+                        width: 75%;
+                    }
+
+                    h2 {
+                        .redRound(10%);
+                        width: 100%;
+                    }
+
+                    p {
+                        .redRound(10%);
+                        width: 150%;
+                        font-size: .75rem;
+                        margin-left: -25%;
+                    }
+                }
+
+                .buttons {
+                    margin-top: 43%;
+                    margin-right: 10%;
+                    margin-left: 10%;
+                    padding-top: 1.2%;
+                    .redRound(20%);
+                    width: 20%;
+                    text-align: center;
+                    height: 5%;
+                    display: flex;
+                    flex-direction: column;
+                    .center();
+                    font-family: 'Notable';
+                    font-size: .5rem;
+                    letter-spacing: 2px;
+
+                    .buttons:hover {
+                        cursor: pointer;
+                        -webkit-box-shadow: 0px 5px 40px -10px gold;
+                        -moz-box-shadow: 0px 5px 40px -10px gold;
+                        box-shadow: 5px 40px -10px gold;
+                        transition: all 0.4s ease 0s;
+
+                    }
+
+                    .Alive,
+                    .Dead {
+                        .buttonSettings();
+                        font-family: 'permanent marker';
+                        letter-spacing: 3px;
+                    }
+                }
+
+                .scoreBoard {
+                    margin-top: 25%;
+                    margin-right: 10%;
+                    .redRound(5%);
+                    height: 10%;
+                    text-align: center;
+                    font-family: 'Notable';
+                    font-size: .75rem;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+@media @phone {
+    html {
+        body {
+            font-size: .75rem;
+
+
+
+
+            .header {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 1%;
+                margin-left: -5%;
+                margin-right: 2%;
+                width: 80%;
+                text-decoration: none;
+
+                .welcome{
+                    margin-top: 50%;
+                    margin-left: -5%;
+                    width: 100%;
+                }
+                .navMeta{
+                    margin-top: -100.7%;
+                        margin-left: -115%;
+                        width: 50%;
+                        
+                }
+
+                .icon {
+
+                    margin-top: 2%;
+                    margin-left: 7%;
+                    padding-left: 7%;
+                    padding-right: 7%;
+                    font-family: 'permanent marker';
+                    text-align: center;
+                    width: 20%;
+
+
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+                nav {
+                    margin-left: -20%;
+                    text-decoration: none;
+                    height: 10%;
+                    padding: 10%;
+                    font-family: 'Satisfy';
+
+
+                    a {
+                        margin: 0%;
+                        text-decoration: none;
+                        padding: 8%;
+                    }
+                }
+            }
+
+            background-image: none;
+            background-color: red;
+            background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(40, 33, 33, 1) 100%);
+
+            .mid {
+                display: flex;
+                margin-top: 5%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0%;
+                padding: 0%;
+
+
+                .celebrity {
+                    flex-direction: column;
+                    .center();
+                    font-family: 'Notable';
+
+                    margin-top: -1%;
+                    margin-right: 43%;
+                    width: 50%;
+                    margin-bottom: 0%;
+                    text-align: center;
+
+
+                    .star {
+                        width: 75%;
+                    }
+
+                    h2 {
+                        .redRound(10%);
+                        width: 100%;
+                    }
+
+                    p {
+                        .redRound(10%);
+                        width: 150%;
+                        font-size: .75rem;
+
+                    }
+                }
+
+                .buttons {
+                    margin-top: -2.6%;
+                    margin-right: 10%;
+                    margin-left: 10%;
+                    padding-top: 5%;
+                    padding-right: 35%;
+                    padding-left: 35%;
+                    padding-bottom: -100%;
+                    background: none;
+                    border: none;
+                    width: 20%;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: 'Notable';
+                    font-size: .5rem;
+                    letter-spacing: 2px;
+
+                    .buttons:hover {
+                        cursor: pointer;
+                        -webkit-box-shadow: 0px 5px 40px -10px gold;
+                        -moz-box-shadow: 0px 5px 40px -10px gold;
+                        box-shadow: 5px 40px -10px gold;
+                        transition: all 0.4s ease 0s;
+
+                    }
+
+                    .Alive,
+                    .Dead {
+                        .buttonSettings();
+                        font-family: 'permanent marker';
+                        letter-spacing: 3px;
+                    }
+                }
+
+                .scoreBoard {
+                    .redRound(5%);
+                    width: 25%;
+                    text-align: center;
+                    font-family: 'Notable';
+                    font-size: .75rem;
+                    margin-top: -130%;
+                    margin-left: 75%;
+                    background: none;
+                    border: none;
+                }
+            }
+
+        }
+    }
+
+
+}

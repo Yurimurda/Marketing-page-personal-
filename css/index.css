@@ -1,0 +1,533 @@
+.testBorder {
+  border: 2px solid green;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html body {
+  background-image: url(/img/Curtains.png);
+  background-size: 100%;
+  font-size: 1rem;
+}
+html body p,
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body li,
+html body nav a {
+  color: gold;
+}
+html body .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 75%;
+  padding-left: 5%;
+  text-decoration: none;
+}
+html body .header .welcome {
+  background: #ff0000;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  width: 20%;
+  border-radius: 10%;
+  border: 1px solid gold;
+  width: 50%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 30%;
+  margin-left: 3%;
+  font-size: 1rem;
+}
+html body .header .welcome h1 {
+  font-family: 'permanent marker';
+  letter-spacing: 3px;
+}
+html body .header .welcome a {
+  text-decoration-color: Gold;
+  font-family: 'permanent marker';
+  letter-spacing: 3px;
+  color: gold;
+}
+html body .header .welcome p {
+  font-family: 'volkhov';
+}
+html body .header .welcome h2 {
+  font-family: 'notable';
+  letter-spacing: 1px;
+}
+html body .header .navMeta {
+  margin-top: -46.7%;
+  margin-left: -65%;
+}
+html body .header .icon {
+  background: #ff0000;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  width: 20%;
+  border-radius: 50%;
+  border: 1px solid gold;
+  font-family: 'permanent marker';
+  text-align: center;
+}
+html body .header .icon a {
+  text-decoration: none;
+}
+html body .header nav {
+  width: 400%;
+  text-decoration: none;
+  height: 10%;
+  font-family: 'Satisfy';
+}
+html body .header nav a {
+  background: #ff0000;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  width: 20%;
+  border-radius: 50%;
+  border: 1px solid gold;
+  text-decoration: none;
+  margin: 3%;
+  padding: 2%;
+}
+html body .mid {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+html body .mid .celebrity {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Notable';
+  width: 25%;
+  margin-left: 18%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+html body .mid .celebrity .star {
+  width: 75%;
+}
+html body .mid .celebrity h2 {
+  background: #ff0000;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  width: 20%;
+  border-radius: 10%;
+  border: 1px solid gold;
+  width: 100%;
+}
+html body .mid .celebrity p {
+  background: #ff0000;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  width: 20%;
+  border-radius: 10%;
+  border: 1px solid gold;
+  width: 100%;
+  font-size: 0.75rem;
+}
+html body .mid .buttons {
+  margin-top: 20.5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 1.2%;
+  background: #ff0000;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  border-radius: 20%;
+  border: 1px solid gold;
+  width: 20%;
+  text-align: center;
+  height: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Notable';
+  font-size: 0.5rem;
+  letter-spacing: 2px;
+}
+html body .mid .buttons .buttons:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 5px 40px -10px gold;
+  -moz-box-shadow: 0px 5px 40px -10px gold;
+  box-shadow: 5px 40px -10px gold;
+  transition: all 0.4s ease 0s;
+}
+html body .mid .buttons .Alive,
+html body .mid .buttons .Dead {
+  display: block;
+  background-color: #ff0000;
+  margin: 0 2% 2%;
+  cursor: pointer;
+  width: 100px;
+  height: 5%;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: gold;
+  transition: relative;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  font-family: 'permanent marker';
+  letter-spacing: 3px;
+}
+html body .mid .scoreBoard {
+  margin-right: 18%;
+  background: #ff0000;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  width: 20%;
+  border-radius: 10%;
+  border: 1px solid gold;
+  height: 10%;
+  text-align: center;
+  font-family: 'Notable';
+}
+html .creditsMeta {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+html .creditsMeta .credits {
+  background: #ff0000;
+  background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  width: 20%;
+  border-radius: 10%;
+  border: 1px solid gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 66%;
+}
+html .creditsMeta .credits h1 {
+  text-align: center;
+  font-family: 'Notable';
+  letter-spacing: 2rem;
+}
+html .creditsMeta .credits .Cast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Notable';
+}
+html .creditsMeta .credits .Cast h1 {
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+html .creditsMeta .credits .Cast .castMember {
+  margin: 0.5%;
+  font-size: 0.75rem;
+  text-align: center;
+}
+html .creditsMeta .credits .Cast .castMember p {
+  font-family: 'Volkhov', serif;
+}
+@media (max-width: 800px) {
+  html body {
+    font-size: 1rem;
+    background-image: url(/img/tablet_curtains.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+  }
+  html body .creditsMeta .credits {
+    width: 100%;
+  }
+  html body .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 75%;
+    text-decoration: none;
+  }
+  html body .header .welcome {
+    margin-left: 17%;
+  }
+  html body .header .navMeta {
+    margin-top: -90.7%;
+    margin-left: -35%;
+  }
+  html body .header .icon {
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    border-radius: 50%;
+    border: 1px solid gold;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-family: 'permanent marker';
+    text-align: center;
+    width: 20%;
+  }
+  html body .header .icon a {
+    text-decoration: none;
+  }
+  html body .header nav {
+    width: 200%;
+    text-decoration: none;
+    height: 10%;
+    font-family: 'Satisfy';
+  }
+  html body .header nav a {
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    width: 20%;
+    border-radius: 50%;
+    border: 1px solid gold;
+    text-decoration: none;
+    margin: 3%;
+    padding: 2%;
+  }
+  html body .mid {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+  }
+  html body .mid .celebrity {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Notable';
+    width: 25%;
+    margin-left: 18%;
+    text-align: center;
+    margin-top: 12%;
+  }
+  html body .mid .celebrity .star {
+    width: 75%;
+  }
+  html body .mid .celebrity h2 {
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    width: 20%;
+    border-radius: 10%;
+    border: 1px solid gold;
+    width: 100%;
+  }
+  html body .mid .celebrity p {
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    width: 20%;
+    border-radius: 10%;
+    border: 1px solid gold;
+    width: 150%;
+    font-size: 0.75rem;
+    margin-left: -25%;
+  }
+  html body .mid .buttons {
+    margin-top: 43%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 1.2%;
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    border-radius: 20%;
+    border: 1px solid gold;
+    width: 20%;
+    text-align: center;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Notable';
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+  }
+  html body .mid .buttons .buttons:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 40px -10px gold;
+    -moz-box-shadow: 0px 5px 40px -10px gold;
+    box-shadow: 5px 40px -10px gold;
+    transition: all 0.4s ease 0s;
+  }
+  html body .mid .buttons .Alive,
+  html body .mid .buttons .Dead {
+    display: block;
+    background-color: #ff0000;
+    margin: 0 2% 2%;
+    cursor: pointer;
+    width: 100px;
+    height: 5%;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: gold;
+    transition: relative;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    font-family: 'permanent marker';
+    letter-spacing: 3px;
+  }
+  html body .mid .scoreBoard {
+    margin-top: 25%;
+    margin-right: 10%;
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    width: 20%;
+    border-radius: 5%;
+    border: 1px solid gold;
+    height: 10%;
+    text-align: center;
+    font-family: 'Notable';
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 500px) {
+  html body {
+    font-size: 0.75rem;
+    background-image: none;
+    background-color: red;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+  }
+  html body .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: -5%;
+    margin-right: 2%;
+    width: 80%;
+    text-decoration: none;
+  }
+  html body .header .welcome {
+    margin-top: 50%;
+    margin-left: -5%;
+    width: 100%;
+  }
+  html body .header .navMeta {
+    margin-top: -100.7%;
+    margin-left: -115%;
+    width: 50%;
+  }
+  html body .header .icon {
+    margin-top: 2%;
+    margin-left: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-family: 'permanent marker';
+    text-align: center;
+    width: 20%;
+  }
+  html body .header .icon a {
+    text-decoration: none;
+  }
+  html body .header nav {
+    margin-left: -20%;
+    text-decoration: none;
+    height: 10%;
+    padding: 10%;
+    font-family: 'Satisfy';
+  }
+  html body .header nav a {
+    margin: 0%;
+    text-decoration: none;
+    padding: 8%;
+  }
+  html body .mid {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+  }
+  html body .mid .celebrity {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Notable';
+    margin-top: -1%;
+    margin-right: 43%;
+    width: 50%;
+    margin-bottom: 0%;
+    text-align: center;
+  }
+  html body .mid .celebrity .star {
+    width: 75%;
+  }
+  html body .mid .celebrity h2 {
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    width: 20%;
+    border-radius: 10%;
+    border: 1px solid gold;
+    width: 100%;
+  }
+  html body .mid .celebrity p {
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    width: 20%;
+    border-radius: 10%;
+    border: 1px solid gold;
+    width: 150%;
+    font-size: 0.75rem;
+  }
+  html body .mid .buttons {
+    margin-top: -2.6%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-right: 35%;
+    padding-left: 35%;
+    padding-bottom: -100%;
+    background: none;
+    border: none;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Notable';
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+  }
+  html body .mid .buttons .buttons:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 40px -10px gold;
+    -moz-box-shadow: 0px 5px 40px -10px gold;
+    box-shadow: 5px 40px -10px gold;
+    transition: all 0.4s ease 0s;
+  }
+  html body .mid .buttons .Alive,
+  html body .mid .buttons .Dead {
+    display: block;
+    background-color: #ff0000;
+    margin: 0 2% 2%;
+    cursor: pointer;
+    width: 100px;
+    height: 5%;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: gold;
+    transition: relative;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    font-family: 'permanent marker';
+    letter-spacing: 3px;
+  }
+  html body .mid .scoreBoard {
+    background: #ff0000;
+    background: radial-gradient(circle, #ff0000 0%, #282121 100%);
+    width: 20%;
+    border-radius: 5%;
+    border: 1px solid gold;
+    width: 25%;
+    text-align: center;
+    font-family: 'Notable';
+    font-size: 0.75rem;
+    margin-top: -130%;
+    margin-left: 75%;
+    background: none;
+    border: none;
+  }
+}
